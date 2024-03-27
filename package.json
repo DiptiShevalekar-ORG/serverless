@@ -1,0 +1,19 @@
+{
+  "name": "fork_serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "@google-cloud/pubsub": "^4.3.3",
+    "dotenv": "^16.4.5",
+    "mailgun.js": "^10.2.1",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.37.1"
+  }
+}
